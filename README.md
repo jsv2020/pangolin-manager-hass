@@ -6,7 +6,7 @@ Jede öffentliche und private Ressource der konfigurierten Organisation wird als
 
 Den Ordner `custom_components/pangolin` nach `/config/custom_components/pangolin` kopieren und Home Assistant neu starten. Unter Einstellungen → Geräte & Dienste → Integration hinzufügen nach **Pangolin** suchen.
 
-API-Adresse (beispielsweise `https://api.axample.de/v1`), Organisations-ID und API-Schlüssel eingeben. Der Schlüssel braucht Lese- und Änderungsrechte für öffentliche und private Ressourcen der Organisation. Die API muss von Home Assistant erreichbar sein. TLS-Zertifikate werden geprüft.
+API-Adresse (beispielsweise `https://api.example.de/v1`), Organisations-ID und API-Schlüssel eingeben. Der Schlüssel braucht Lese- und Änderungsrechte für öffentliche und private Ressourcen der Organisation. Die API muss von Home Assistant erreichbar sein. TLS-Zertifikate werden geprüft.
 
 ## HACS
 

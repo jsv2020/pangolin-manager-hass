@@ -14,8 +14,6 @@ Dieses Verzeichnis ist als Repository aufgebaut. Für die Installation über HAC
 
 ## API
 
-Grundlage: https://api.pangolin.i9o.de/v1/docs/
-
 - Bearer-Authentifizierung.
 - GET `/org/{orgId}/public-resources` und `/org/{orgId}/private-resources`, seitenweise.
 - POST `/public-resource/{resourceId}` bzw. `/private-resource/{siteResourceId}` mit `{"enabled": true/false}`.

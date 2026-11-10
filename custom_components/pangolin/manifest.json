@@ -1,0 +1,10 @@
+{
+  "domain": "pangolin",
+  "name": "Pangolin",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://api.pangolin.i9o.de/v1/docs/",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "codeowners": []
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Pangolin",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pangolin",
+        "description": "Configure API access with read and update permissions for public and private resources.",
+        "data": {
+          "url": "API URL (with or without /v1)",
+          "org_id": "Organization ID",
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Invalid API URL.",
+      "invalid_auth": "Invalid API key or insufficient permissions.",
+      "cannot_connect": "Cannot retrieve resources. Check URL, organization, permissions and API compatibility."
+    },
+    "abort": {
+      "already_configured": "This server and organization are already configured.",
+      "reauth_successful": "API credentials updated.",
+      "unique_id_mismatch": "Server and organization must match the existing integration."
+    }
+  }
+}

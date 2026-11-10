@@ -14,9 +14,15 @@ Dieses Verzeichnis ist als Repository aufgebaut. Für die Installation über HAC
 
 ## API
 
+Grundlage: https://api.pangolin.i9o.de/v1/docs/
+
 - Bearer-Authentifizierung.
 - GET `/org/{orgId}/public-resources` und `/org/{orgId}/private-resources`, seitenweise.
 - POST `/public-resource/{resourceId}` bzw. `/private-resource/{siteResourceId}` mit `{"enabled": true/false}`.
 - Erwartete Listen: `data.resources` bzw. `data.siteResources`; private Listen unterstützen alternativ `data.resources`.
 
 Die Swagger-Spezifikation beschreibt die inneren Antwortdaten nicht vollständig. Daher muss das konkrete Antwortformat an der Zielinstanz noch geprüft werden. Es wurden keine echten Ressourcen geschaltet. Home Assistant 2025.1 oder neuer erforderlich; ein vollständiger Laufzeittest in Home Assistant steht aus.
+
+## Logo
+
+Das vorhandene Pangolin-Markenzeichen liegt unter `custom_components/pangolin/brand/`. Lokale Integrationslogos werden ab Home Assistant 2026.3 unterstützt. Auf älteren Versionen funktioniert die Integration weiterhin, das lokale Logo wird dort jedoch nicht angezeigt.
